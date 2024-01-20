@@ -1,20 +1,20 @@
 # A Kernel Seedling
-TODO: intro
+Create a /proc/cout file that shows the current number of running processes running
 
 ## Building
 ```shell
-TODO: cmd for build
+Use "make" to build the module as well as "make clean" to remove the previous build information if needed
 ```
 
 ## Running
 ```shell
-TODO: cmd for running binary
+Use the cat /proc/count command to run the program
 ```
 TODO: results?
 
 ## Cleaning Up
 ```shell
-TODO: cmd for cleaning the built binary
+Use sudo rmmod proc_count to clean up the built binary
 ```
 
 ## Testing

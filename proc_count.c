@@ -9,12 +9,10 @@ static struct proc_dir_entry *entry;
 static int proc_count(struct seq_file *m, void *v){
 	// TODO: it's all yours
 	int count = 0;
-	char c[1];
 	for_each_process(m) {
 		count++;
 	}
-	sprintf(c,"%c", count);
-	seq_printf(m, c);
+	seq_printf(m,"d\n", count);
 	return 0;
 }
 
