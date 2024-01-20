@@ -10,11 +10,11 @@ static int proc_count(struct seq_file *m, void *v){
 	// TODO: it's all yours
 	int count = 0;
 	char c[1];
-	for_each_process(seq_file) {
+	for_each_process(m) {
 		count++;
 	}
 	sprintf(c,"%c", count);
-	seq_printf(*m, c);
+	seq_printf(m, c);
 	return 0;
 }
 
