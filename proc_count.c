@@ -34,5 +34,5 @@ module_init(proc_count_init);
 module_exit(proc_count_exit);
 
 MODULE_AUTHOR("Brian He");
-MODULE_DESCRIPTION("CS111 lab0 count proc number");
+MODULE_DESCRIPTION("CS111 lab0 count proc number: 141");
 MODULE_LICENSE("GPL");
