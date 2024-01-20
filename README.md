@@ -1,5 +1,5 @@
 # A Kernel Seedling
-Create a /proc/cout file that shows the current number of running processes running
+Create a /proc/count file that shows the current number of running processes running
 
 ## Building
 ```shell
